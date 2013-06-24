@@ -78,3 +78,4 @@ Demigod::Application.configure do
     }
   }
 end
+
