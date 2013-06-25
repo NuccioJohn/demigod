@@ -5,6 +5,7 @@ Demigod::Application.routes.draw do
   devise_for :users
 
   get 'about' => 'Pages#about'
+  get 'johnnuccio' => 'Pages#johnnuccio'
   root :to => 'pins#index'
 
   # The priority is based upon order of creation:
